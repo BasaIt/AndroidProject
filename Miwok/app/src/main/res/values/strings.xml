@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Miwok</string>
+    <string name="button_colors">Colors</string>
+    <string name="button_family">Family</string>
+    <string name="button_numery">Numery</string>
+    <string name="button_lengue">Lengue</string>
+    <string name="english_world_one">One</string>
+    <string name="miwok_world_two">Lutti</string>
+</resources>

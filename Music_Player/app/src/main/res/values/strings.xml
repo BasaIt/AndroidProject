@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Music_Player</string>
+    <string name="Hello">Hello World</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="i_done">I m done!</string>
+    <string name="min">-</string>
+    <string name="max">+</string>
+</resources>

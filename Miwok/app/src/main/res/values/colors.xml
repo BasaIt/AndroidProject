@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tan_background">#FFF7DA</color>
+    <color name="group_lengeu">#448AFF</color>
+    <color name="group_color">#7E0393</color>
+    <color name="group_number">#CC7C16</color>
+    <color name="group_family">#92F61E</color>
+</resources>

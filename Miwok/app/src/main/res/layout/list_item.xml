@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_heg"
+    android:background="@color/tan_background"
+    android:minHeight="@dimen/list_item_heg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_heg"
+        android:layout_height="@dimen/list_item_heg" />
+
+    <RelativeLayout
+        android:id="@+id/text_conteiner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/image"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/english"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="@string/english_world_one"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/miwok"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="@string/miwok_world_two"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/baseline_play" />
+
+
+</RelativeLayout>
+</RelativeLayout>

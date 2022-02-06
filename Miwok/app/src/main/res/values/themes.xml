@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Miwok" parent="Theme.AppCompat">
+        <!-- Primary brand color. -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="actionBarStyle">@style/Theme.Miwok</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="color">@color/group_number</item>
+        <item name="colorAccent">@color/group_lengeu</item>
+        <item name="colorButtonNormal">@color/group_family</item>
+        <item name="background">@color/group_color</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#E78A12</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorPrimary">@color/primary_color</item>
+            <item name="colorPrimaryDark">@color/primary_dark_color</item>
+            <item name="actionBarStyle">@style/MiwokAppBarStyle</item>
+            <item name="android:windowContentOverlay">@null</item>
+        </style>
+    </style>
+</resources>
